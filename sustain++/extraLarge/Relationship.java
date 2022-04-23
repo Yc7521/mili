@@ -12,4 +12,8 @@ public class Relationship {
     void increaseSustain() {
 
     }
+
+    public void challenge() {
+
+    }
 }

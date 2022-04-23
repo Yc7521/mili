@@ -26,6 +26,11 @@ public class Ghost implements Life {
     }
 
     @Override
+    public Life getMemory(Life life, String tag) {
+        return null;
+    }
+
+    @Override
     public LifeMemory getMemories(Life life) {
         return this.memoryList.get(life);
     }
